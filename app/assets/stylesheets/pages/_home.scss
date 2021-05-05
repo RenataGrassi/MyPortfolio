@@ -1,0 +1,30 @@
+body {
+  background-color: #171616;
+}
+
+h1 {
+  color: #aa2b1d;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  align-items: center;
+  color: #aa2b1d;
+  font-size: 200%;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-between;
+  margin-left: 8% ;
+  margin-right: 8% ;
+  margin-bottom: 10% ;
+}
