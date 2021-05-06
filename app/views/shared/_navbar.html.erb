@@ -1,4 +1,30 @@
 <nav class="navbar">
-  <!-- <%= image_tag("RG.gif")%> -->
-  <h2>RENATA</h2>
+  <%= link_to root_path, data:{ turbolinks: false} do %>
+  <div class='logo'>
+    <%= image_tag "RG.gif", alt: "Renata Grassi", width: 350 %> 
+  </div> 
+  <%end%>
+  
+  <div class='flex-container'>
+
+    <%=link_to root_path do%>
+      <div class='flex-item'>Portfolio
+        <%end%>
+      </div>
+    
+    <%= link_to about_path do%>
+      <div class='flex-item'>Sobre
+      <%end%>
+      </div>
+
+    <%= link_to contact_path do%>
+      <div class='flex-item'>Contato</div>
+      <%end%>
+
+    <%= link_to sideprojects_path do%>
+      <div class='flex-item'>Paralelamente</div>
+    <%end%>
+  </div>
+
+  
 </nav>
