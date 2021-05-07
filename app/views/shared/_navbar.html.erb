@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" style="height: 400px">
   <%= link_to root_path, data:{ turbolinks: false} do %>
   <div class='logo'>
     <%= image_tag "RG.gif", alt: "Renata Grassi", width: 350 %> 
@@ -7,24 +7,24 @@
   
   <div class='flex-container'>
 
-    <%=link_to root_path do%>
-      <div class='flex-item'>Portfolio
+    <%=link_to root_path, class: "link" do%>
+      <div class='flex-item'>Portfolio</div>
         <%end%>
-      </div>
+      
     
-    <%= link_to about_path do%>
-      <div class='flex-item'>Sobre
+    <%= link_to about_path, class: "link" do%>
+      <div class='flex-item'>Sobre</div>
       <%end%>
-      </div>
+      
 
-    <%= link_to contact_path do%>
+    <%= link_to contact_path, class: "link" do%>
       <div class='flex-item'>Contato</div>
       <%end%>
 
-    <%= link_to sideprojects_path do%>
-      <div class='flex-item'>Paralelamente</div>
+    <%= link_to sideprojects_path, class: "link" do%>
+      <div class='flex-item'>Projetos Paralelos</div>
     <%end%>
   </div>
 
-  
+
 </nav>
