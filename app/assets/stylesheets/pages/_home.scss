@@ -22,14 +22,49 @@ body {
   display: flex;
   width: 100%;
   align-content: flex-end;
+  padding: 50px;
+  // transition: all 0.4s ease;
+  // &:hover {
+   // transform: scale(1.25);
+ // }
+}
+
+#foto {
+  display: flex;
+  width: 100%;
+  align-content: flex-end;
   transition: all 0.4s ease;
   &:hover {
     transform: scale(1.25);
   }
 }
 
-.port-content {
+#foto_arraial{
+  margin-right: 77px;
+  display: flex;
+  width: 100%;
+  align-content: flex-end;
+  transition: all 0.4s ease;
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+.port-content-provi {
   margin-left: 150px; 
+  margin-right: 120px;
+  text-align: justify;
+}
+
+.port-content-msg {
+  margin-left: 150px; 
+  margin-right: 120px;
+  text-align: justify;
+}
+
+.port-content-arraial {
+  margin-left: 150px; 
+  margin-right: 120px;
+  text-align: justify;
 }
 
 @media (max-width: 800px) {
