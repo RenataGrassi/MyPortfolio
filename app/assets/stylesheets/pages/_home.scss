@@ -25,8 +25,8 @@ body {
   padding: 50px;
   // transition: all 0.4s ease;
   // &:hover {
-   // transform: scale(1.25);
- // }
+  // transform: scale(1.25);
+  // }
 }
 
 #foto {
@@ -40,15 +40,19 @@ body {
 }
 
 #foto_arraial{
-  margin-right: 77px;
+  margin-right: 100px;
   display: flex;
-  width: 100%;
+  width: 150%;
   align-content: flex-end;
   transition: all 0.4s ease;
   &:hover {
     transform: scale(1.25);
   }
+    img {
+    margin-left: 50px;
+  }
 }
+
 .port-content-provi {
   margin-left: 150px; 
   margin-right: 120px;
@@ -56,22 +60,21 @@ body {
 }
 
 .port-content-msg {
-  margin-left: 150px; 
+  margin-left: 95px; 
   margin-right: 120px;
   text-align: justify;
 }
 
 .port-content-arraial {
-  margin-left: 150px; 
+  margin-left: 8px; 
   margin-right: 120px;
   text-align: justify;
 }
 
-@media (max-width: 800px) {
-  .flex-container-port {
-    flex-direction: column;
-  }
+#texto {
+  padding-top: 0px;
 }
 
-
-
+.col-xs-12 {
+  margin-left: -50px;
+} 
