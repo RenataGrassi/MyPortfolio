@@ -22,21 +22,60 @@ body {
   display: flex;
   width: 100%;
   align-content: flex-end;
+  padding: 50px;
+  // transition: all 0.4s ease;
+  // &:hover {
+   // transform: scale(1.25);
+  //}
+}
+
+#foto {
+  display: flex;
+  width: 100%;
+  align-content: flex-end;
   transition: all 0.4s ease;
   &:hover {
     transform: scale(1.25);
   }
 }
 
-.port-content {
-  margin-left: 150px; 
-}
-
-@media (max-width: 800px) {
-  .flex-container-port {
-    flex-direction: column;
+#foto_arraial{
+  margin-right: 100px;
+  //margin-left: 30px;
+  display: flex;
+  width: 150%;
+  align-content: flex-end;
+  transition: all 0.4s ease;
+  &:hover {
+    transform: scale(1.25);
+  }
+  img {
+    margin-left: 50px;
   }
 }
 
+.port-content-provi {
+  margin-left: 150px; 
+  margin-right: 120px;
+  text-align: justify;
+}
 
+.port-content-msg {
+  margin-left: 95px; 
+  margin-right: 120px;
+  text-align: justify;
+}
 
+.port-content-arraial {
+  margin-left: 8px; 
+  margin-right: 120px;
+  text-align: justify;
+}
+
+#texto {
+  padding-top: 0px;
+}
+
+.col-xs-12 {
+  margin-left: -50px;
+} 
