@@ -1,1 +1,99 @@
-<H1>oceannnnnnnnnnnn</H1>
+<%= provide(:turbolinks_cache, 'no-cache') %>
+
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1><center> UK Hydrographic Office - Marine Innovation Challenge </center> </h1>
+
+<div class='col-s-12 col-md-6'>
+  <div class='flex-container-port'>
+    
+      <div class="row no-gutters" style='margin-top: 20px; margin-bottom: 20px;'>
+      <div class='flex-item-port'>
+        <div class='col-s-12 col-md-6'> 
+          <div id='foto'>                   
+            <a href='https://github.com/RenataGrassi/UKHO_Challenge'>   
+            <%= image_tag "cirad.png", alt: "UKHO_Challenge", width: "350"%> 
+          </div>
+            </a>                     
+        </div>
+
+        <div class='col-xs-12 col-md-6'>          
+          <div class='port-content-provi'>
+            <p>Este Hackathon foi organizado pela Provi, em janeiro de 2021, e foi focado em impulsionar a carreira de mulheres. Foram mais de 300
+            inscritas, e a proposta era criar um produto que auxiliasse profissionais juniores a conseguirem seu lugar
+            no mercado de trabalho. Em 3 dias intensos de trabalho nasceu o HackaWork: uma plataforma que conecta empresas 
+            e profissionais, e promove pequenos desafios relacionados à tecnologia, facilitando o processo de seleção e
+            ampliando as chances do profissional junior de chegar até as empresas parceiras. Foi o <strong> 1º colocado </strong>
+            entre 25 grupos participantes. <br>
+            
+          </div>        
+      </div>
+    </div>  
+  </div>
+</div>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More about the solution</button>
+  <div id="myDropdown" class="dropdown-content">
+    <p>Este Hackathon foi organizado pela Provi, em janeiro de 2021, e foi focado em impulsionar a carreira de mulheres. Foram mais de 300
+      inscritas, e a proposta era criar um produto que auxiliasse profissionais juniores a conseguirem seu lugar
+      no mercado de trabalho. Em 3 dias intensos de trabalho nasceu o HackaWork: uma plataforma que conecta empresas 
+      e profissionais, e promove pequenos desafios relacionados à tecnologia, facilitando o processo de seleção e
+      ampliando as chances do profissional junior de chegar até as empresas parceiras. Foi o <strong> 1º colocado </strong>
+      entre 25 grupos participantes.</p>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="card-436569">
+				<div class="card">
+					<div class="card-header">
+						 <a class="card-link" data-toggle="collapse" data-parent="#card-436569" href="#card-element-895879">Collapsible Group Item #1</a>
+					</div>
+					<div id="card-element-895879" class="collapse show">
+						<div class="card-body">
+							Anim pariatur cliche...
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						 <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-436569" href="#card-element-488959">Collapsible Group Item #2</a>
+					</div>
+					<div id="card-element-488959" class="collapse">
+						<div class="card-body">
+							Anim pariatur cliche...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
