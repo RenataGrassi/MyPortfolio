@@ -1,0 +1,22 @@
+.container-ff {
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  display: flex;
+  //flex-wrap: nowrap;
+  justify-content: space-between; 
+  flex-direction: row;
+  }
+
+
+  .fa-envelope:before {
+    color: #4a503d;
+  }
+  
+  .fa-github:before {
+    color: #4a503d;
+  }
+
+  .fa-linkedin:before {
+    color: #4a503d;
+  }
