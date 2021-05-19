@@ -78,3 +78,15 @@ body {
 .col-xs-12 {
   margin-left: -50px;
 } 
+
+@media (max-width: 800px) {
+  .flex-item-port {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    padding-left: 0;
+  }
+}
