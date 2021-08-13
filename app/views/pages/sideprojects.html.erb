@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <title>Renata Grassi - Oceanography</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
 <div class='col-s-12 col-md-6'>
   <div class='flex-container-port'>
     
-      <div class="row no-gutters" style='margin-top: 20px; margin-bottom: 20px;'>
+      <div class="row no-gutters" style='margin-top: 20px; margin-bottom: 5px;'>
       <div class='flex-item-port'>
         <div class='col-s-12 col-md-6'> 
           <div id='foto'>                   
@@ -25,13 +25,14 @@
 
         <div class='col-xs-12 col-md-6'>          
           <div class='port-content-provi'>
-            <p>Este Hackathon foi organizado pela Provi, em janeiro de 2021, e foi focado em impulsionar a carreira de mulheres. Foram mais de 300
-            inscritas, e a proposta era criar um produto que auxiliasse profissionais juniores a conseguirem seu lugar
-            no mercado de trabalho. Em 3 dias intensos de trabalho nasceu o HackaWork: uma plataforma que conecta empresas 
-            e profissionais, e promove pequenos desafios relacionados à tecnologia, facilitando o processo de seleção e
-            ampliando as chances do profissional junior de chegar até as empresas parceiras. Foi o <strong> 1º colocado </strong>
-            entre 25 grupos participantes. <br>
-            
+            <p>The Admiralty Marine Innovation Programme was held virtually in March 2021, which addresses
+             challenges and solutions related to ocean disturbances. This year’s theme revolved around
+            “Assessing risk and resilience for coastal flooding”. My group chose to tackle the issues 
+            related to the sea level rise on Anguilla island located in the Caribbean. Within 3 weeks we 
+            developed a tool that uses satellite data and Reanalysis dataset in order to create an alert 
+            system that can be used to warn the population about hazards in that region. Our prototype was 
+            the runner-up in the program. <br>
+            <u>Team members</u>: Renata Grassi, Felipe dos Santos, Ana Carolina Cupolilo           
           </div>        
       </div>
     </div>  
@@ -46,10 +47,18 @@
     <div class="collapsible-content">
       <div class="content-inner">
         <h4> 
-          QUnit is by calling one of the object that are embedded in JavaScript, and faster JavaScript program could also used with
-          its elegant, well documented, and functional programming using JS, HTML pages Modernizr is a popular browsers without
-          plug-ins. Test-Driven Development.
+         We developed  CIRAD (Coastal Inundation Risk Assessment and Display tool). It is a GIS prototype tool,
+        based on Reanalysis ERA5 hourly Dataset and SAR images (Radar frequency: 5405 MHz). After evaluating 
+        the critical areas on Anguilla and analyzing the netCDF data from ERA5, we set waves, wind, and 
+        precipitation values that we agreed to be potentially harmful. Using Python, we applied masks 
+        (filters) to be our alert level 1 (more dangerous) and 2 (warning alert) and 
+        applied those masks in the Anguilla´s map. The result can be seen in QGis software.
         </h4>
+
+        <div class='anguilla'>                   
+            <%= image_tag "anguilla.png", alt: "Anguilla Map", width: "280"%> 
+        </div>
+       
       </div>
     </div>
   </div>

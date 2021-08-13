@@ -53,6 +53,7 @@ h4 {
 
 .collapsible-content {
  max-height: 0px; 
+ //max-height: 20px;
  overflow: hidden; 
  transition: max-height .4s ease-in-out; 
 }
@@ -79,3 +80,6 @@ h4 {
 
 .collapsible-content p { margin-bottom: 0; }
 
+.anguilla {
+  text-align: center;
+}
